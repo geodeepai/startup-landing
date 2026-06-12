@@ -79,7 +79,7 @@ export default function Navbar() {
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-3">
           <motion.a
-            href="#"
+            href="/sign-in"
             className="text-sm font-medium text-gray-600 px-4 py-2 rounded-lg transition-colors"
             whileHover={{ color: "#6366F1" }}
             transition={{ duration: 0.2 }}
@@ -87,7 +87,7 @@ export default function Navbar() {
             Sign in
           </motion.a>
           <motion.a
-            href="#"
+            href="/sign-in"
             className="text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 px-5 py-2 rounded-full transition-colors shadow-sm shadow-indigo-500/30"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
@@ -137,9 +137,9 @@ export default function Navbar() {
                 </a>
               ))}
               <hr className="border-gray-100 my-1" />
-              <a href="#" className="text-sm font-medium text-gray-600 hover:text-indigo-600">Sign in</a>
+              <a href="/sign-in" className="text-sm font-medium text-gray-600 hover:text-indigo-600">Sign in</a>
               <a
-                href="#"
+                href="/sign-in"
                 className="text-center text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 px-5 py-2.5 rounded-full transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
